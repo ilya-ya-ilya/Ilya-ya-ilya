@@ -1,6 +1,102 @@
+/* Base layout */
 body {
-  font-family: Georgia, serif;
-  max-width: 700px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #222;
+  background: #fff;
+
+  max-width: 680px;
   margin: 40px auto;
-  line-height: 1.6;
+  padding: 0 20px;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.2em;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.1em;
+  margin-top: 1.5em;
+  margin-bottom: 0.3em;
+}
+
+/* Paragraphs */
+p {
+  margin: 1em 0;
+}
+
+/* Links */
+a {
+  color: #0000EE;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Emphasis */
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+/* Lists */
+ul, ol {
+  margin: 1em 0 1em 1.5em;
+}
+
+li {
+  margin: 0.4em 0;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 3em 0;
+}
+
+/* Blockquote */
+blockquote {
+  margin: 1.5em 0;
+  padding-left: 1em;
+  border-left: 3px solid #ddd;
+  color: #555;
+  font-style: italic;
+}
+
+/* Small text (dates, metadata) */
+small {
+  color: #666;
+}
+
+/* Images (if you ever use them) */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 1.5em auto;
+}
+
+/* Code (optional) */
+code {
+  font-family: Menlo, Monaco, monospace;
+  font-size: 0.9em;
+  background: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 3px;
 }
