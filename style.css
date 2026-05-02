@@ -15,7 +15,6 @@ body {
 h1 {
   font-size: 2.2em;
   line-height: 1.2;
-  margin-top: 0;
   margin-bottom: 0.5em;
 }
 
@@ -38,7 +37,7 @@ p {
 
 /* Links */
 a {
-  color: #0000EE;
+  color: #000;
   text-decoration: none;
 }
 
