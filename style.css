@@ -7,14 +7,13 @@ body {
   background: #fff;
 
   max-width: 750px;
-  margin: 20px auto;
+  margin: 10px auto;
   padding: 0 20px;
 }
 
 /* Headings */
 h1 {
   font-size: 2.2em;
-  line-height: 1.2;
   margin-bottom: 0.5em;
 }
 
@@ -87,7 +86,7 @@ blockquote {
 
 /* Small text (dates, metadata) */
 small {
-  color: #666;
+  color: #777;
 }
 
 /* Images (if you ever use them) */
