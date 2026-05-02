@@ -37,13 +37,20 @@ p {
 
 /* Links */
 a {
-  color: #000;
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
+
+a:visited {
+  color: #555;
+}
+
 
 /* Emphasis */
 strong {
